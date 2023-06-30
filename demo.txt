@@ -1,1 +1,23 @@
-Hello Test
+Git Commands
+
+Link git account = git config --global user.username (github name)
+Link remote and local repository = git remote add origin (http link for repository)
+
+Add local file to remote repository = git push origin master
+
+Version check = git --version
+Help config = git help config, git config --help
+
+
+Create local directory = mkdir (name)
+
+go to directories = cd (name)
+
+initialize directory = git init
+
+Check status of repository = git status
+
+Add file to directory = git add (name of file)
+
+Commit = git commit -m "This is a change" <-(description)
+
