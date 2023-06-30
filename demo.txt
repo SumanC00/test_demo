@@ -21,3 +21,16 @@ Add file to directory = git add (name of file)
 
 Commit = git commit -m "This is a change" <-(description)
 
+Add all files = git add .
+
+make new branch = git checkout -b newbranch
+
+change branches = git checkout master <- name of branch
+
+add changes to branch = git merge master <- name of branch
+
+push all commit origin repository to branch master = git push -u origin master (-u means save settings so next time just git push)
+
+get change from online to local = git pull origin master
+
+push another branch to another branch in remote = git push origin new(name of branch)
